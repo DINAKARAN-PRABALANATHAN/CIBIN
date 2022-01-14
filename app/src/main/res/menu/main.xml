@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:id="@+id/home_page" />
+    <item android:title="@string/register_login"
+    android:id="@+id/register_login"/>
+    <item android:title="@string/price_list"
+        android:id="@+id/price_list"/>
+    <item android:title="@string/company_certificates"
+    android:id="@+id/certificate"/>
+    <item android:title="@string/request_order"
+    android:id="@+id/request_order" />
+    <item android:title="@string/order_list"
+    android:id="@+id/order_list" />
+    <item android:title="@string/contact_us"
+        android:id="@+id/contact_us" />
+    <item android:title="@string/signout"
+        android:id="@+id/signout" />
+
+</menu>

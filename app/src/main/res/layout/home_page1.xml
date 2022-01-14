@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/welcome"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_us_title"
+            android:text="About Us"
+            android:textSize="25dp"
+            android:textColor="#000200"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/about_us_discribe"
+            android:layout_width="408dp"
+            android:layout_height="263dp"
+            android:lineSpacingExtra="5dp"
+            android:text="\n              CIBIN ENTERPRIZES PVT LTD. Importer, Exporter and Manufacture was established in 2020. Our business is mainly focused on Cigarette Butts  recycling by collecting on various districts and states around the globe. Also we collecting all types of waste and separate all waste into different types. The recycled cigarette buts is then shipped back to plastic product manufacturing companies by containers and reprocessed into  pellets of a wide range of products. We continuously contribute our efforts to benefit the safety of the environment.\n"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/about_us_title"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/services_providers_title"
+            app:layout_constraintTop_toBottomOf="@+id/about_us_discribe"
+            android:text="Service's"
+            android:textSize="25dp"
+            android:textColor="#000200"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/services_providers"
+            app:layout_constraintTop_toBottomOf="@+id/services_providers_title"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="5dp"
+            android:text="\n              Door step waste collection\n              Accurate measurement of waste collection\n              Customer support\n              Plan creating to waste disposal\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/supporter_title"
+            app:layout_constraintTop_toBottomOf="@+id/services_providers"
+            android:text="Sponsor's and Supporter's"
+            android:textSize="25dp"
+            android:textColor="#000200"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/supporter_details"
+            app:layout_constraintTop_toBottomOf="@+id/supporter_title"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="5dp"
+            android:text="\n              Family and Friend's\n              Municipal Corporation\n              Goverment Offical's\n              People's\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contacts"
+            app:layout_constraintTop_toBottomOf="@+id/supporter_details"
+            android:text="Contact Detail's"
+            android:textSize="25dp"
+            android:textColor="#000200"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone_number"
+            android:text="\nMobile Number :  9597417946"
+            app:layout_constraintTop_toBottomOf="@+id/contacts"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail_id"
+            android:text="Email ID :  cibinenterprize@gmail.com\n"
+            app:layout_constraintTop_toBottomOf="@+id/phone_number"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
